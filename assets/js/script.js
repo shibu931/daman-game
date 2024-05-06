@@ -17,11 +17,11 @@ document.querySelector('.menu-button').addEventListener('click', function() {
     let menu = document.querySelector('.nav-show')
     menu.classList.toggle('show')
 });
-   async function getData(){
-       const request = await fetch("https://ipinfo.io/json")
+async function getData(){
+     const request = await fetch("https://ipinfo.io/json")
        const jsonResponse = await request.json()
        if(jsonResponse.country ==="IN"){
-           if(jsonResponse.region !=="Delhi" && jsonResponse.region !=="Uttar Pradesh"){
+           if(jsonResponse.region !=="Delhi" && jsonResponse.region !=="Uttar Pradesh" && jsonResponse.region !=="Uttarakhand"){
                let ctaBtn = document.querySelectorAll('.cta-btn')
                ctaBtn.forEach(element => {
                    element.href="link"
