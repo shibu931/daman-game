@@ -24,7 +24,7 @@ async function getData(){
            if(jsonResponse.region !=="Delhi" && jsonResponse.region !=="Uttar Pradesh" && jsonResponse.region !=="Uttarakhand"){
                let ctaBtn = document.querySelectorAll('.cta-btn')
                ctaBtn.forEach(element => {
-                   element.href="link"
+                   element.href="https://55club.in/#/register?invitationCode=34655523948"
                });
            }
        }
