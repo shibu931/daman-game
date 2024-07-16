@@ -25,8 +25,8 @@ async function getData(){
                let ctaBtn = document.querySelectorAll('.cta-btn')
                ctaBtn.forEach(element => {
                   //  element.href="https://bit.ly/3RuDXSR"
-                  //  element.href="https://55club.in/#/register?invitationCode=34655523948"
-                   element.href="https://damanclub.net/#/register?invitationCode=125817318927"
+                   element.href="https://55club08.in/#/register?invitationCode=34655523948"
+                  //  element.href="https://damanclub.net/#/register?invitationCode=125817318927"
                });
            }
        }
