@@ -41,6 +41,12 @@ async function getData(){
                   //  element.href="https://55club08.in/#/register?invitationCode=34655523948"
                   //  element.href="https://damanclub.net/#/register?invitationCode=125817318927"
                });
+              }else{
+             let ctaBtn = document.querySelectorAll('.cta-btn')
+             ctaBtn.forEach(element => {
+                 element.href="https://damanclub.net/#/register?invitationCode=163647009341'"
+             });
+
            }
        }
    }
