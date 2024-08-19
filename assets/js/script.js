@@ -21,9 +21,9 @@ document.querySelector('.menu-button').addEventListener('click', function() {
 function teleLink(){
   let teleBtn = document.querySelectorAll('.tele-cta-btn')
   let invitationCode = document.querySelector('.invitationCode')
-  invitationCode.innerHTML ="621746000004"
+  invitationCode.innerHTML ="34655523948"
   teleBtn.forEach(element=>{
-    element.href="https://t.me/aakesh_tirangaclub"
+    element.href="https://t.me/sureshotprediction55club"
   })
 }
 
@@ -37,8 +37,8 @@ async function getData(){
                teleLink()
                ctaBtn.forEach(element => {
                   //  element.href="https://bit.ly/3RuDXSR"
-                   element.href="https://tirangalottery.top/#/register?invitationCode=621746000004"
-                  //  element.href="https://55club08.in/#/register?invitationCode=34655523948"
+                  //  element.href="https://tirangalottery.top/#/register?invitationCode=621746000004"
+                   element.href="https://55club08.in/#/register?invitationCode=34655523948"
                   //  element.href="https://damanclub.net/#/register?invitationCode=125817318927"
                });
               }else{
