@@ -34,12 +34,12 @@ async function getData(){
            if(jsonResponse.region !=="Delhi" ){
             // && jsonResponse.region !=="Uttar Pradesh" && jsonResponse.region !=="Uttarakhand"
                let ctaBtn = document.querySelectorAll('.cta-btn')
-               teleLink()
+              //  teleLink()
                ctaBtn.forEach(element => {
                   //  element.href="https://bit.ly/3RuDXSR"
                   //  element.href="https://tirangalottery.top/#/register?invitationCode=621746000004"
                   //  element.href="https://55club08.in/#/register?invitationCode=34655523948"
-                  //  element.href="https://in999.win/#/register?invitationCode=46776342898"
+                   element.href="https://in999.win/#/register?invitationCode=46776342898"
                   //  element.href="https://damanclub.net/#/register?invitationCode=125817318927"
                });
 
